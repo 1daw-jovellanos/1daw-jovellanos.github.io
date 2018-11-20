@@ -29,9 +29,6 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-<iframe class="m-auto d-block" src="https://trinket.io/embed/python/0795f44938?outputOnly=true&runOption=run" style="width:100%; height:400px; max-width:400px" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-    <h2>La lógica del juego</h2>
    
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -48,3 +45,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+<iframe class="m-auto d-block" src="https://trinket.io/embed/python/0795f44938?outputOnly=true&runOption=run" style="width:100%; height:400px; max-width:400px" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+    <h2>La lógica del juego</h2>
