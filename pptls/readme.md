@@ -38,7 +38,7 @@ En este mini-proyecto, vamos a construir una aplicación de consola que disputar
 tres rondas contra el usuario humano, generando sus propias elecciones al azar.
 
 El juego pedirá una palabra al usuario, con el mensaje *Tu jugada:*  (con un espacio al final) y se asegurará de que es una de éstas:
-*piedra*, *papel*, *tijeras*, *lagarto* o *Spock* con esa misma grafía de mayúsculas y minúsculas. Si la palabra que introduce el usuario no es una de esas, el programa lo indicará con el mensaje *incorrecto* por el terminal y volverá a pedir la jugada
+*piedra*, *papel*, *tijeras*, *lagarto* o *Spock* con esa misma grafía de mayúsculas y minúsculas. Si la palabra que introduce el usuario no es una de esas, el programa lo indicará con el mensaje *incorrecto* por el terminal y volverá a pedir la jugada. (Hemos hecho en clase un ejercicio para volver a pedir un dato  mientras no sea válido. Aprovechamos ese conocimiento en este caso).
 
 El ordenador escogerá una jugada al azar, y la indicará por el terminal con el mensaje Ordenador saca XXX y determinará quién ha ganado esa ronda, emitiendo uno de estos mensajes:
 
@@ -46,7 +46,7 @@ El ordenador escogerá una jugada al azar, y la indicará por el terminal con el
 * gana jugador
 * empate
 
-Se anota un punto al ganador, y si hay empate no se anotan puntos. Al final de las tres rondas se imprimen los puntos acumulados con el siguiente mensaje: **Jugador: XX; Ordenador: XX;**
+Se anota un punto al ganador, y si hay empate no se anotan puntos. Al final de las tres rondas se imprimen los puntos acumulados con el siguiente mensaje: **Jugador: X; Ordenador: X;**, imprimiendo los puntos en los sitios marcados con **X**.
 
 ## Ejemplo
 <iframe class="m-auto d-block" src="https://trinket.io/embed/python/0795f44938?outputOnly=true&runOption=run" style="width:100%; height:400px; max-width:400px" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
