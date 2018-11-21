@@ -76,7 +76,7 @@ Aplicando aritmética modular cada opción gana a las dos anteriores, y pierde f
 Recuerda que en una resta nos podemos ir a negativos: hay que añadir un 5, como hiciste en el ejercicio de restar horas.
 
 ## La codificación
-Crearemos una clase llamada `Main`, en un paquete `practica`, con los siguientes miembros:
+Crearemos una clase llamada `Main`, en un paquete `pptls`, con los siguientes miembros:
 
 * `int puntosJugador;` variable de instancia que representa a los puntos del jugador. Al ser de instancia será accesible por los cuatro métodos de instancia que vamos a programar
 * `int puntosOrdenador;` ídem para los puntos del ordenador
