@@ -14,8 +14,8 @@ El ganador se determina por unas normas sencillas :
 * Papel cubre a la roca (el jugador del papel gana)
 * Si los dos jugadores hacen la misma jugada, se considera empate.
 
-Los jugadores suelen hacer hacer un número de juegos previamente pactados, y gana el jugador
-que más juegos ha ganado.
+Los jugadores suelen hacer hacer un número de rondas previamente pactado, y gana el jugador
+que más rondas ha ganado.
 
 Piedra-papel-tijeras es un juego sorprendentemente popular que mucha gente juega en serio.
 Debido al hecho de que se produce un empate aproximadamente en un tercio de los juegos,
