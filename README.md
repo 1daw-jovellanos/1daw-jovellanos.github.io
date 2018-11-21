@@ -2,7 +2,7 @@
 
 Este es un repo de GitHub con ejercicios y apuntes de la asignatura de programación.
 
-* práctica (pptls)[pptls]
+* práctica [pptls](pptls)
 
 <hr>
 <small>
