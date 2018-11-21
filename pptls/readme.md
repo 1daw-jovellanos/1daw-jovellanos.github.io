@@ -9,9 +9,9 @@ corresponden a piedra, papel o tijera.
 ![piedra-papel-tijeras](piedra-papel-tijeras.jpg)
 
 El ganador se determina por unas normas sencillas :
-* Roca rompe tijeras (el jugador de la roca gana)
+* Piedra rompe tijeras (el jugador de la piedra gana)
 * Tijeras cortan papel (el jugador de la tijeras gana)
-* Papel cubre a la roca (el jugador del papel gana)
+* Papel cubre a la piedra (el jugador del papel gana)
 * Si los dos jugadores hacen la misma jugada, se considera empate.
 
 Los jugadores suelen hacer hacer un número de rondas previamente pactado, y gana el jugador
@@ -58,7 +58,7 @@ Hacer una explosión combinatoria requería un if/else/if de 25 ramas. Se puede 
 
 No obstante, **se puede evitar**: existe una solución ingeniosa para determinar el ganador de una jugada de forma sencilla, con muchas menos comprobaciones. Si se asignan códigos numéricos a cada una de las cinco opciones de esta manera:
 
-0 - roca  
+0 - piedra  
 1 - Spock  
 2 - papel  
 3 - lagarto  
@@ -66,8 +66,8 @@ No obstante, **se puede evitar**: existe una solución ingeniosa para determinar
 
 Aplicando aritmética modular cada opción gana a las dos anteriores, y pierde frente a las dos posteriores.
 
-* papel gana a spock y roca, y pierde frente a lagarto y tijeras.
-* lagarto gana a papel y a Spock, y pierde frente a tijeras y (dando la vuelta) roca.
+* papel gana a spock y piedra, y pierde frente a lagarto y tijeras.
+* lagarto gana a papel y a Spock, y pierde frente a tijeras y (dando la vuelta) piedrafff.
 * etc.
 
 > Si restas una jugada de otra en módulo 5, y el resultado es 1 o 2, entonces el jugador de la primera jugada gana, 
