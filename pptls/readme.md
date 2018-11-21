@@ -37,8 +37,8 @@ empata contra la misma opción.
 En este mini-proyecto, vamos a construir una aplicación de consola que disputará un juego de
 tres rondas contra el usuario humano, generando sus propias elecciones al azar.
 
-El juego pedirá una palabra al usuario, con el mensaje **Tu jugada: ** (con un espacio al final) y se asegurará de que es una de éstas:
-**piedra**, **papel**, **tijeras**, **lagarto** o **Spock** con esa misma grafía de mayúsculas y minúsculas. Si la palabra que introduce el usuario no es una de esas, el programa lo indicará con el mensaje **incorrecto** por el terminal y volverá a pedir la jugada
+El juego pedirá una palabra al usuario, con el mensaje *Tu jugada:*  (con un espacio al final) y se asegurará de que es una de éstas:
+*piedra*, *papel*, *tijeras*, *lagarto* o *Spock* con esa misma grafía de mayúsculas y minúsculas. Si la palabra que introduce el usuario no es una de esas, el programa lo indicará con el mensaje *incorrecto* por el terminal y volverá a pedir la jugada
 
 El ordenador escogerá una jugada al azar, y la indicará por el terminal con el mensaje Ordenador saca XXX y determinará quién ha ganado esa ronda, emitiendo uno de estos mensajes:
 
