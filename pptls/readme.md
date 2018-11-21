@@ -70,7 +70,8 @@ Aplicando aritmética modular cada opción gana a las dos anteriores, y pierde f
 * lagarto gana a papel y a Spock, y pierde frente a tijeras y (dando la vuelta) roca.
 * etc.
 
->Si restas una jugada de otra en módulo 5, y el resultado es 1 o 2, entonces el jugador de la primera jugada gana, >si es un 0 empata, y en otro caso pierde.
+> Si restas una jugada de otra en módulo 5, y el resultado es 1 o 2, entonces el jugador de la primera jugada gana, 
+> si es un 0 empata, y en otro caso pierde.
 
 Recuerda que en una resta nos podemos ir a negativos: hay que añadir un 5, como hiciste en el ejercicio de restar horas.
 
@@ -90,7 +91,7 @@ Crearemos una clase llamada `Main`, en un paquete `practica`, con los siguientes
 
 #### Números aleatorios
 Hay varias formas de generar números aleatorios en java. Una de las más básicas consiste en utilizar el método `Math.random()` que genera un double aleatorio entre 0 (incluído) y 1 (excluído). La siguiente expresión genera un número entre 0 y 5 (excluído). Asegúrate de comprender por qué.  
-````java
+```java
 (int) (Math.ramdom() * 5)
 ```
 
