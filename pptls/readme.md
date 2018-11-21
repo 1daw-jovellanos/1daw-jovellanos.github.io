@@ -96,7 +96,7 @@ Hay varias formas de generar números aleatorios en java. Una de las más básic
 ```
 
 #### Comparar cadenas
-Si necesitases comparar cadenas, ten en cuenta que el operador de comparación `==` sólo se aplica a tipos primitivos. La equivalencia de objetos en Java se realiza de manera general con el método `equals(…)`, que todos los objetos comparables de java tienen. Por ejemplo, si quiero saber si la variable de tipo cadena s contiene la cadena "Hola", se utiliza una expresión como `s.equals("Hola")`, u que devolverá true si, en efecto, el contenido referenciado por la variable s equivale a "Hola", y false en caso contrario. La expresión `"Hola".equals(s)` es igualmente correcta y tendría un comportamiento similar.
+Si necesitases comparar cadenas, ten en cuenta que el operador de comparación `==` sólo se aplica a tipos primitivos. La equivalencia de objetos en Java se realiza de manera general con el método `equals(…)`, que todos los objetos comparables de java tienen. Por ejemplo, si quiero saber si la variable de tipo cadena s contiene la cadena "Hola", se utiliza una expresión como `s.equals("Hola")`, que devolverá true si, en efecto, el contenido referenciado por la variable s equivale a "Hola", y false en caso contrario. La expresión `"Hola".equals(s)` es igualmente correcta y tendría un comportamiento similar.
 
 ## La entrega
 En este ejercicio me gustaría que nos fijásemos no solo en que el algoritmo funcione, sino en la exactitud y pulcritud, así que vamos a tener especialmente en cuenta algunas cosas.
