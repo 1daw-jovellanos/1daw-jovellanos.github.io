@@ -58,11 +58,11 @@ Hacer una explosión combinatoria requería un if/else/if de 25 ramas. Se puede 
 
 No obstante, **se puede evitar**: existe una solución ingeniosa para determinar el ganador de una jugada de forma sencilla, con muchas menos comprobaciones. Si se asignan códigos numéricos a cada una de las cinco opciones de esta manera:
 
-0 - roca
-1 - Spock
-2 - papel
-3 - lagarto
-4 - tijeras
+0 - roca  
+1 - Spock  
+2 - papel  
+3 - lagarto  
+4 - tijeras  
 
 Aplicando aritmética modular cada opción gana a las dos anteriores, y pierde frente a las dos posteriores.
 
@@ -75,7 +75,7 @@ Aplicando aritmética modular cada opción gana a las dos anteriores, y pierde f
 Recuerda que en una resta nos podemos ir a negativos: hay que añadir un 5, como hiciste en el ejercicio de restar horas.
 
 ## La codificación
-Crearemos una clase llamada `JuegoPptls`, en un paquete `practica`, con los siguientes miembros:
+Crearemos una clase llamada `Main`, en un paquete `practica`, con los siguientes miembros:
 
 * `int puntosJugador;` variable de instancia que representa a los puntos del jugador. Al ser de instancia será accesible por los cuatro métodos de instancia que vamos a programar
 * `int puntosOrdenador;` ídem para los puntos del ordenador
@@ -102,5 +102,5 @@ En este ejercicio me gustaría que nos fijásemos no solo en que el algoritmo fu
 
 * Presta atención a utilizar de manera exacta los identificadores, literales y signaturas que se proporcionan. (clase, paquete, variables, métodos, y mensajes en el terminal).
 * Sigue las normas de estilo: una indentación de 4 espacios, llaves estilo K&R variante Java, 100 caracteres por línea y el resto que ya sabemos... Recuerda que las tenemos resumidas en la página del módulo.
-* Documenta la clase y cada método con comentarios de javadoc. Redascta los comentarios pensando en que sean útiles para quien vaya a mantener, revisar o utilizar mi código.
+* Documenta la clase y cada método con comentarios de javadoc. Redacta los comentarios pensando en que sean útiles para quien vaya a mantener, revisar o utilizar tu código.
 
