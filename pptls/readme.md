@@ -49,6 +49,7 @@ El ordenador escogerá una jugada al azar, y la indicará por el terminal con el
 Se anota un punto al ganador, y si hay empate no se anotan puntos. Al final de las tres rondas se imprimen los puntos acumulados con el siguiente mensaje: **Jugador: XX; Ordenador: XX;**
 
 ## Ejemplo
+<iframe class="m-auto d-block" src="https://trinket.io/embed/python/0795f44938?outputOnly=true&runOption=run" style="width:100%; height:400px; max-width:400px" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## La lógica del juego:
 
