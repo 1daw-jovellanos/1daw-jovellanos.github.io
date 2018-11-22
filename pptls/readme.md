@@ -82,7 +82,7 @@ Crearemos una clase llamada `Main`, en un paquete `pptls`, con los siguientes mi
 * `int puntosJugador;` variable de instancia que representa a los puntos del jugador. Al ser de instancia será accesible por los cuatro métodos de instancia que vamos a programar. Lo inicializamos a 0 en run().
 * `int puntosOrdenador;` ídem para los puntos del ordenador
 * `Scanner in;` El Scanner para leer del teclado. Como nuestro programa va a ejecutar varios métodos, debemos tener el Scanner accesible en todo momento, así que lo declaramos de instancia, y lo inicializaremos al principio de la ejecución, en run().
-* `public String convertirNombreANumero(String nombre)` acepta una de las cinco jugadas y devuelve el código numérico asignado, o un -1 si la cadena nombre no corresponde a ninguna de las jugadas
+* `public int convertirNombreANumero(String nombre)` acepta una de las cinco jugadas y devuelve el código numérico asignado, o un -1 si la cadena nombre no corresponde a ninguna de las jugadas 
 * `public String convertirNumeroANombre(int numero)` acepta un número entre 0 y 4, y devuelve el nombre asociado a la jugada, o la cadena vacía "" si el numero no está en ese rango.
 * `public void ronda()` hace una ronda completa, según lo descrito arriba: Pide la jugada al usuario (y la puede pedir varias veces **mientras** no sea una jugada correcta), 
 * `public void run()` Inicializa la variable de instancia in a un nuevo objeto Scanner aa ciado a la entrda estándar System.in, y también las dos variables de instancia de los puntos a 0. Invoca tres veces el método ronda() y finalmente imprime el mensaje de los puntos.
