@@ -57,7 +57,7 @@ Para determinar quién gana una ronda, PPTLS tiene un conjunto de diez reglas, c
 Hacer una explosión combinatoria requería un if/else/if de 25 ramas. Se puede simplicar facilmente a 21 porque todos los empates se pueden comprobar con una sola condición de igualdad.
 
 No obstante, **se puede evitar**: Basta pararse a analizar por qué la probabilidad de ganar o perder es la misma, se escoja la jugada que se escoja: Cada jugada gana a otras dos, y pierde frente a otras dos.
-
+[](pptls.svg)
 
 
 0 - piedra  
@@ -69,13 +69,10 @@ No obstante, **se puede evitar**: Basta pararse a analizar por qué la probabili
 Aplicando aritmética modular cada opción gana a las dos anteriores, y pierde frente a las dos posteriores.
 
 * papel gana a spock y piedra, y pierde frente a lagarto y tijeras.
-* lagarto gana a papel y a Spock, y pierde frente a tijeras y (dando la vuelta) piedrafff.
+* lagarto gana a papel y a Spock, y pierde frente a tijeras y (dando la vuelta) piedra.
 * etc.
 
-> Si restas una jugada de otra en módulo 5, y el resultado es 1 o 2, entonces el jugador de la primera jugada gana, 
-> si es un 0 empata, y en otro caso pierde.
-
-Recuerda que en una resta nos podemos ir a negativos: hay que añadir un 5, como hiciste en el ejercicio de restar horas.
+![Gauss](https://imgflip.com/i/2n76sr)
 
 ## La codificación
 Crearemos una clase llamada `Main`, en un paquete `pptls`, con los siguientes miembros:
