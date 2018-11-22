@@ -72,7 +72,7 @@ Aplicando aritmética modular cada opción gana a las dos anteriores, y pierde f
 * lagarto gana a papel y a Spock, y pierde frente a tijeras y (dando la vuelta) piedra.
 * etc.
 
-![Gauss](https://imgflip.com/i/2n76sr)
+![Gauss](https://i.imgflip.com/2n76sr.jpg)
 
 ## La codificación
 Crearemos una clase llamada `Main`, en un paquete `pptls`, con los siguientes miembros:
