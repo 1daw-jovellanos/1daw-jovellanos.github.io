@@ -56,7 +56,9 @@ Se anota un punto al ganador, y si hay empate no se anotan puntos. Al final de l
 Para determinar quién gana una ronda, PPTLS tiene un conjunto de diez reglas, como puedes ver en el diagrama de arriba. Tanto la jugada del ordenador como la del usuario se escogen de entre cinco posibilidades, lo que hace que haya 25 combinaciones sobre las que aplicar esas 10 reglas (10 en el sentido jugador-ordenador, otras 10 en sentido contrario y 5 combinaciones de empate)
 Hacer una explosión combinatoria requería un if/else/if de 25 ramas. Se puede simplicar facilmente a 21 porque todos los empates se pueden comprobar con una sola condición de igualdad.
 
-No obstante, **se puede evitar**: existe una solución ingeniosa para determinar el ganador de una jugada de forma sencilla, con muchas menos comprobaciones. Si se asignan códigos numéricos a cada una de las cinco opciones de esta manera:
+No obstante, **se puede evitar**: Basta pararse a analizar por qué la probabilidad de ganar o perder es la misma, se escoja la jugada que se escoja: Cada jugada gana a otras dos, y pierde frente a otras dos.
+
+
 
 0 - piedra  
 1 - Spock  
