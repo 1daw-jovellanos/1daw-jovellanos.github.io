@@ -57,8 +57,10 @@ Para determinar quién gana una ronda, PPTLS tiene un conjunto de diez reglas, c
 Hacer una explosión combinatoria requería un if/else/if de 25 ramas. Se puede simplicar facilmente a 21 porque todos los empates se pueden comprobar con una sola condición de igualdad.
 
 No obstante, **se puede evitar**: Basta pararse a analizar por qué la probabilidad de ganar o perder es la misma, se escoja la jugada que se escoja: Cada jugada gana a otras dos, y pierde frente a otras dos.
-[](pptls.svg)
 
+![diagrama](pptls.svg)
+
+Numera las jugadas de esta manera.
 
 0 - piedra  
 1 - Spock  
