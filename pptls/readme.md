@@ -102,6 +102,11 @@ Si necesitases comparar cadenas, ten en cuenta que el operador de comparación `
 En este ejercicio me gustaría que nos fijásemos no solo en que el algoritmo funcione, sino en la exactitud y pulcritud, así que vamos a tener especialmente en cuenta algunas cosas.
 
 * Presta atención a utilizar de manera exacta los identificadores, literales y signaturas que se proporcionan. (clase, paquete, variables, métodos, y mensajes en el terminal).
-* Sigue las normas de estilo: una indentación de 4 espacios, llaves estilo K&R variante Java, 100 caracteres por línea y el resto que ya sabemos... Recuerda que las tenemos resumidas en la página del módulo.
-* Documenta la clase y cada método con comentarios de javadoc. Redacta los comentarios pensando en que sean útiles para quien vaya a mantener, revisar o utilizar tu código.
+* Sigue las normas de estilo: una indentación de 4 espacios, llaves estilo K&R variante Java, 100 caracteres por línea y el resto que ya sabemos... Recuerda que las tenemos resumidas en la página del módulo. NetBeans usa 4 espacios para la indentación, y tiene una línea vertical roja a 80 caracteres. Puedes moverla a 100 en el menú de *Tools/Options/Editor/Formatting"
+* Documenta la clase y cada método con comentarios de javadoc. Redacta los comentarios pensando en que sean útiles para quien vaya a mantener, revisar o utilizar tu código.  
+Vamos a comentar también las variables de instancia, que suelen ser importantes para comprender el estado del objeto. Los comentarios javadoc de las variables suelen ser cortitos, se pueden colocar en una sola línea, delante de la variable. Ej:
+```java
+    /** Un scanner para leer líneas completas de la entrada estándar */
+    Scanner in;
+```
 
